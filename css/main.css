@@ -31,6 +31,10 @@ body {
     font-weight: normal;
 }
 
+.billboard a {
+    
+}
+
 ul {
     list-style-type: none;
     overflow: hidden;
