@@ -22,27 +22,44 @@ body {
 }
 
 .billboard h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
-    position: relative;
-    top: 20px;
-}
-
-.billboard h2 {
-    font-size: 40px;
-    font-weight: lighter;
     position: relative;
     top: 40px;
 }
 
-.billboard a {
-    text-decoration: none;
-    color: white;
+.billboard p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
     position: relative;
-    top: 80px;
+    top: 50px;
+    height: 100px;
+    margin: 0 60px;
+}
+
+.billboard a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 160px;
     border: 4px;
     border-style: solid;
     border-radius: 5px;
     padding: 13px;
+}
+
+.billboard a:hover {
+    background-color: black;
+    color: white;
+}
+
+.blackbar {
+    background-color: #333;
+    position: relative;
+    top: 220px;
+    height: 50px;
 }
 
 ul {
@@ -62,6 +79,7 @@ li a {
     color: white;
     padding: 15px 15px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -73,7 +91,8 @@ li a:hover {
     background-color: #4CAF50;
 }
 
-.sitename {
+.hostedby {
+    font-family: 'Open Sans', sans-serif;
     display: block;
     color: white;
     padding: 15px;
