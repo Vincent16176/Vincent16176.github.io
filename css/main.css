@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .billboard {
@@ -16,23 +17,32 @@ body {
 
 .billboard h1,
 .billboard h2 {
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 .billboard h1 {
     font-size: 50px;
+    position: relative;
+    top: 20px;
 }
 
 .billboard h2 {
-    margin-top: 25px;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: lighter;
+    position: relative;
+    top: 40px;
 }
 
 .billboard a {
-    
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 80px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 13px;
 }
 
 ul {
@@ -50,7 +60,6 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 15px 15px;
     text-decoration: none;
 }
@@ -67,6 +76,5 @@ li a:hover {
 .sitename {
     display: block;
     color: white;
-    text-align: center;
     padding: 15px;
 }
