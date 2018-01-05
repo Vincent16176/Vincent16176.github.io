@@ -53,13 +53,14 @@ body {
 .billboard a:hover {
     background-color: black;
     color: white;
+    border-color: black black;
 }
 
 .blackbar {
     background-color: #333;
     position: relative;
     top: 220px;
-    height: 50px;
+    height: 40px;
 }
 
 ul {
@@ -91,9 +92,32 @@ li a:hover {
     background-color: #4CAF50;
 }
 
-.hostedby {
+.sitename {
     font-family: 'Open Sans', sans-serif;
     display: block;
     color: white;
     padding: 15px;
+}
+
+.footer {
+    background-color: #333;
+    position: relative;
+    height: 50px;
+    top: 500px;
+}
+
+.footer img {
+    position: relative;
+    float: right;
+    height: inherit;
+    width: 40px;
+    margin: 5px 10px;
+}
+
+.footer p {
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    vertical-align: middle;
+    margin-left: 8px;
+    color: white;
 }
