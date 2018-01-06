@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 0;
+    padding: 0 0;
     text-align: center;
 }
 
@@ -97,6 +97,34 @@ li a:hover {
     display: block;
     color: white;
     padding: 15px;
+}
+
+.info {
+    margin: 50px 8px 0px;
+    text-align: left;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    margin: 0 0;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    margin: 0px 0;
+    padding: 0 0 0 0;
+}
+
+hr {
+    margin: 30px 85px;
+    border-color: black;
+}
+
+.info a {
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .footer {
