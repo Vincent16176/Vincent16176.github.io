@@ -1,4 +1,4 @@
-# Whopla.github.io
+# Vincent.github.io
 
 A project site that holds my future, current, and past projects. 
 Projects are written in different languages and sorted by language. Projects are interactive. 
