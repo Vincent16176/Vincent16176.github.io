@@ -63,7 +63,7 @@ body {
     height: 40px;
 }
 
-ul {
+header ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -71,11 +71,11 @@ ul {
     margin: 0;
 }
 
-li {
+header li {
     float: left;
 }
 
-li a {
+header li a {
     display: block;
     color: white;
     padding: 15px 15px;
@@ -84,7 +84,7 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+header li a:hover {
     background-color: #111;
 }
 
@@ -105,16 +105,31 @@ li a:hover {
 }
 
 h2 {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 27px;
-    margin: 0 0;
+    font-size: 30px;
+    margin: 0 0 0 0;
+    padding: 0 0;
 }
 
 h3 {
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 23px;
-    margin: 0px 0;
+    font-size: 20px;
+    margin: 0 0 50px 0;
     padding: 0 0 0 0;
+}
+
+.python {
+    margin: 0px 0px 0px;
+    padding: 0 0;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 0 0 12px 0;
+    padding: 0px 0px;
 }
 
 hr {
@@ -124,7 +139,7 @@ hr {
 
 .info a {
     font-family: 'Open Sans', sans-serif;
-
+    margin: 0 0 0 30px;
 }
 
 .footer {
