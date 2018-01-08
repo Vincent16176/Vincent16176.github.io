@@ -1,3 +1,7 @@
+html {
+    font-size: 100%;
+}
+
 body {
     margin: 0 0;
     padding: 0 0;
@@ -23,27 +27,27 @@ body {
 
 .billboard h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     position: relative;
-    top: 40px;
+    top: 20px;
 }
 
 .billboard p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     position: relative;
-    top: 50px;
+    top: 30px;
     height: 100px;
     margin: 0 60px;
 }
 
 .billboard a {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     text-decoration: none;
     color: black;
     position: relative;
-    top: 160px;
+    top: 150px;
     border: 4px;
     border-style: solid;
     border-radius: 5px;
@@ -107,7 +111,7 @@ header li a:hover {
 h2 {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 1.875rem;
     margin: 0 0 0 0;
     padding: 0 0;
 }
@@ -115,7 +119,7 @@ h2 {
 h3 {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0 0 50px 0;
     padding: 0 0 0 0;
 }
@@ -127,7 +131,7 @@ h3 {
 
 h4 {
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 1.563rem;
     margin: 0 0 12px 0;
     padding: 0px 0px;
 }
