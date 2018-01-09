@@ -29,6 +29,7 @@ body {
     font-size: 3.125rem;
     position: relative;
     top: 20px; 
+    height: auto;
 }
 
 .billboard p {
@@ -36,7 +37,7 @@ body {
     font-size: 1.875rem;
     position: relative;
     top: 30px;
-    height: 100px;
+    height: auto;
     margin: 0 60px;
 }
 
@@ -46,7 +47,7 @@ body {
     text-decoration: none;
     color: black;
     position: relative;
-    top: 150px;
+    top: 80px;
     border: 4px;
     border-style: solid;
     border-radius: 5px;
@@ -62,7 +63,7 @@ body {
 .blackbar {
     background-color: #333;
     position: relative;
-    top: 220px;
+    top: 120px;
     height: 40px;
 }
 
@@ -103,7 +104,7 @@ header li a:hover {
 }
 
 .info {
-    margin: 50px 8px 0px;
+    margin: 8px 8px 8px 8px;
     text-align: left;
 }
 
@@ -177,10 +178,5 @@ hr {
     
     .sitename {
         display: none;
-    }
-    
-    .footer {
-        float: none;
-        background-color: #333;
     }
 }
