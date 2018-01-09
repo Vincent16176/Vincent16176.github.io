@@ -169,8 +169,7 @@ hr {
 }
 
 @media (max-width:800px) {
-  .billboard a, {
+  header li, {
     width: 100%; 
-    text-align: center;
   }
 }
