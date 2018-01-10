@@ -39,7 +39,8 @@ body {
     position: relative;
     top: 30px;
     height: auto;
-    margin: 0 60px;
+    margin: 0 auto 0 auto;
+    width: 90%;
 }
 
 .billboard a {
@@ -165,6 +166,10 @@ hr {
 }
 
 @media screen and (max-width:800px) {
+    html {
+        font-size: 12px;
+    }
+    
     header li {
         width: 100%; 
     }
