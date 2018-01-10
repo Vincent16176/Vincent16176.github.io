@@ -167,7 +167,7 @@ hr {
 
 @media screen and (max-width:800px) {
     html {
-        font-size: 12px;
+        font-size: 13px;
     }
     
     header li {
@@ -176,9 +176,5 @@ hr {
     
     .sitename {
         display: none;
-    }
-    
-    .footer img {
-        float: none;
     }
 }
