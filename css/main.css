@@ -170,6 +170,10 @@ hr {
         font-size: 13px;
     }
     
+    body {
+        font-size: 1.25rem; 
+    }
+    
     header li {
         width: 100%; 
     }
